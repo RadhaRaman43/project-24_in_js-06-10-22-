@@ -1,27 +1,26 @@
-body{
-    background-color: rgb(240, 59, 59);
-}
-h2{
-    color: yellow;
-    text-shadow: 2px 2px brown;
-    font-size: 50px;
+
+.a{
     text-align: center;
-    padding-bottom: 5%;
+    font-size: 34px;
+    margin-left: 100px;
+    margin-right: 100px;
+    padding-left: 100px;
 }
-#grad1{
-    height:80px;
-    width: 98%;
-    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+h4{
+    text-align: center;
     font-size: 30px;
-    margin-top:0%;
-    margin-bottom: 3%;
-    background-image: linear-gradient(rgb(249, 246, 246),rgb(233, 233, 108),rgb(149, 149, 254));
 }
-#grad2{
-    height: 80px;
-    width: 98%;
-    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    font-size: 30px;
-    margin-top:0%;
-    background-image: radial-gradient(rgb(226, 78, 78),rgb(186, 186, 62),grey);
+.box{
+    background-color: rgb(242, 173, 173);
+    border: 10px solid black;
+    height: 300px;
+    align-self: center;
+    margin-left: 100px;
+    margin-right: 100px;
+}
+.box form{
+    align-items: center;
+}
+.button{
+    padding-top: 2%;
 }
