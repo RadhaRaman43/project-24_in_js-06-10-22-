@@ -1,165 +1,81 @@
 
-body{
-    background: rgb(245, 205, 205);
+.big{
+    margin-top: 2%;
+    border-style: solid;
+    border-color: red;
+    border-width: 4px;
+    width: 100%;
+    padding-bottom: 4%;
 }
-h3{
+.box_a{
+    margin-top: 3%;
+    border-style: solid;
+    width: 96%;
+    margin-left: 1.5%;
+    border-color: red;
+    border-width: 4px;
+}
+.box_b{
+    margin-top: 3%;
+    width: 96%;
+    margin-left: 1.5%;
+    border-style: solid;
+    border-color: red;
+    border-width: 4px;
+}
+.box_c{
+    margin-top: 3%;
+    border-style: solid;
+    width: 96%;
+    margin-left: 1.5%;
+    border-color: red;
+    border-width: 4px;
+}
+.box_c .a{
+    margin-top: 2%;
+    border-style: solid;
+    border-color: red;
+    border-width: 4px;
+    padding-top: 0%;
+    line-height: 3;
+    width: 98%;
+    margin-left: 4px;
+    margin-top: 0px;
+    margin-bottom: 26px;
+}
+.box_c .b{
+    margin-top: 2%;
+    border-style: solid;
+    border-color: red;
+    border-width: 4px;
+    padding-top: 0%;
+    line-height: 3;
+    width: 98%;
+    margin-left: 4px;
+    margin-top: 0px;
+    margin-bottom: 26px;
+}
+.btna{
+    border-style: solid;
+    border-color: red;
+    border-width: 4px;
+    width: 7%;
+    padding-left: 0%;
     text-align: center;
+    margin-left: 60px;
+    margin-top: -36px;
+    padding-top: 3px;
+    height: 24px;
+    background-color: rgb(177, 175, 175);
 }
-.a{
-    display: flex;
-    align-items: center;
-}
-.box_a {
-    transition: box-shadow .3s;
-    width: 300px;
-    height: 50px;
-    margin: 50px;
-    border-radius:10px;
-    border: 1px solid #ccc;
-    background: #fff;
-    padding-left: 2%;
-    margin-left: 10%;
-    margin-top: 1%;
-    
-}
-
-
-.box_b {
-    transition: box-shadow .3s;
-    width: 300px;
-    height: 50px;
-    margin: 50px;
-    border-radius:10px;
-    border: 1px solid #ccc;
-    background: #fff;
-    padding-left: 2%;
-    margin-top: 1%;
-}
-
-
-.box_c {
-    transition: box-shadow .3s;
-    width: 300px;
-    height: 50px;
-    margin: 50px;
-    border-radius:20px;
-    border: 1px solid #ccc;
-    background: #fff;
-    padding-left: 2%;
-    margin-top: 1%;
-   
-}
-
-.b{
-    display: flex;
-}
-.box_d {
-    transition: box-shadow .3s;
-    width: 300px;
-    height: 50px;
-    margin: 50px;
-    border-radius:10px;
-    border: 1px solid #ccc;
-    background: #fff;
-    padding-left: 2%;
-    margin-left: 10%;
-    margin-top: 10px;
-    
-}
-
-
-.box_e {
-    transition: box-shadow .3s;
-    width: 300px;
-    height: 50px;
-    margin: 50px;
-    border-radius:10px;
-    border: 1px solid #ccc;
-    background: #fff;
-    padding-left: 2%;
-    margin-top: 10px;
-}
-
-.box_f {
-    transition: box-shadow .3s;
-    width: 300px;
-    height: 50px;
-    margin: 50px;
-    border-radius:20px;
-    border: 1px solid #ccc;
-    background: #fff;
-    padding-left: 2%;
-    margin-top: 10px;
-   
-}
-
-.c{
-    display: flex;
-}
-.box_g {
-    transition: box-shadow .3s;
-    width: 300px;
-    height: 50px;
-    margin: 50px;
-    border-radius:10px;
-    border: 1px solid #ccc;
-    background: #fff;
-    padding-left: 2%;
-    margin-left: 10%;
-    margin-top: 10px;
-    
-}
-
-
-.box_h {
-    transition: box-shadow .3s;
-    width: 300px;
-    height: 50px;
-    margin: 50px;
-    border-radius:10px;
-    border: 1px solid #ccc;
-    background: #fff;
-    padding-left: 2%;
-    margin-top: 10px;
-}
-
-
-.box_i {
-    transition: box-shadow .3s;
-    width: 300px;
-    height: 50px;
-    margin: 50px;
-    border-radius:20px;
-    border: 1px solid #ccc;
-    background: #fff;
-    padding-left: 2%;
-    margin-top: 10px;
-   
-}
-
-
-.flex-container{
-    display: flex;
+.btnb{
+    border-style: solid;
+    border-color: red;
+    border-width: 4px;
+    width: 3%;
+    text-align: center;
     margin-left: 14%;
-    padding-top: -7px;
+    margin-top: -37px;
+    padding-top: 3px;
+    height: 24px;
 }
-.flex-container > div{
-    width: 250px;
-    margin: 10px;
-    text-align: center;
-    border-bottom: 3px solid black;
-}
-
-
-.container{
-    display: flex;
-    margin-left: 3.5%;
-}
-.container>div{
-  width: 300px;
-  height: 35px;
-  margin: 10px;
-  border: 1px solid black;
-  animation: mymove 5s infinite;
-}
-
