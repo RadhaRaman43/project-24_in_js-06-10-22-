@@ -1,24 +1,31 @@
-let n=20
-let c=3
-let a=10
-let b=n+a
-let d=n/a
-let m=n*a
-let M=n%c
-let lo=n<a 
+let a=5
+let b=7
+let c=6
+let sum=(a+b+c)/2
+let sum1=sum*(sum-a)*(sum-b)*(sum-c)
+let sqr=sum1**(1/2)
+console.log("Area of triangle is "+sqr)
 
-console.log(a, c, a, b, d, m, M, lo)
+var ab=12
+var cd=12
+var dc=(ab==cd)? (ab+cd)*3:ab+cd
+console.log(dc)
 
-var t="radha"
-var g="raman"
-var g=t+g
-console.log(g)
-console.log(m>M && m<M)
-console.log(n>c || n<c)
+function sumfu (x, y) {
+    if (x == y) {
+      return 3 * (x + y);
+      } 
+     else
+     {
+      return (x + y);
+     }
+   }
+  console.log(sumfu(10, 20));
+  console.log(sumfu(10, 10));
 
-const bb=m|b
-const tb=d && b
-console.log(bb,tb)
-
+  filename = "system.php"
+console.log(filename.split('.').pop());
+filename = "abc.js"
+console.log(filename.split('.').pop());
 
 
