@@ -1,31 +1,41 @@
-let a=5
-let b=7
-let c=6
-let sum=(a+b+c)/2
-let sum1=sum*(sum-a)*(sum-b)*(sum-c)
-let sqr=sum1**(1/2)
-console.log("Area of triangle is "+sqr)
+/*var myBalance=0;
+var msg="";
+while(myBalance<=10){
+    msg=msg+"My balance is "+ myBalance +"<br>";
+    myBalance++;
+    
+}
+document.write(msg);
+"<br>"
+var m='';
+do
+{
+    m=m+"Mybalance is "+myBalance+"<br>";
+    myBalance++;
 
-var ab=12
-var cd=12
-var dc=(ab==cd)? (ab+cd)*3:ab+cd
-console.log(dc)
+}
+while(myBalance<=30)
+document.write(m);
 
-function sumfu (x, y) {
-    if (x == y) {
-      return 3 * (x + y);
-      } 
-     else
-     {
-      return (x + y);
-     }
-   }
-  console.log(sumfu(10, 20));
-  console.log(sumfu(10, 10));
-
-  filename = "system.php"
-console.log(filename.split('.').pop());
-filename = "abc.js"
-console.log(filename.split('.').pop());
+for(var a=10;a<15;a++){
+    console.log(a);
+}*/
 
 
+
+var count=0;
+var marks=0;
+while(count<5){
+    var number=prompt("enter the your marks");
+    marks+=parseInt(number);
+    count++;
+}
+document.write(marks)
+
+/*var total=0;
+for(var i=0;i<5;i++){
+    var no=prompt("Enter the marks");
+    total+=parseInt(no);
+
+}
+document.write(total)*/
